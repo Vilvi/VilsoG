@@ -1,6 +1,5 @@
-.button {
-  background-color:green;
-  height:100px;
-  width:100px;
-  border:2px solid black;
+div .top_banner {
+  margin: auto;
+  width: 200px;
+  height: 150px;
 }
