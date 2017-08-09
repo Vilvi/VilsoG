@@ -67,14 +67,15 @@
     color: #1e2b16;
 }
 
-.grad_background #info_valk {
+.grad_background, #info_valk {
 }
 
-#info_valk .img_valk {
-    display: inline;
+#info_valk, .img_valk {
+    display: inline-block;
+    height: 56px;
 }
 
-#info_valk .h2_valk {
+#info_valk, .h2_valk {
     display: inline;
 }
 
@@ -85,6 +86,7 @@
 
 .ability_link {
     text-decoration: none;
+    color: purple;
 }
 
 .ability_link:hover {
@@ -92,20 +94,22 @@
     color: green;
 }
 
-#breed_table_valk img {
+#breed_table_valk, img {
     height: 15px;
     padding-right: 5px;
     padding-left: 5px;
 }
 
-#breed_table_valk th {
+#breed_table_valk, th {
     padding-bottom: 10px;
 }
 
-#breed_table_valk td {
+#breed_table_valk, td {
     padding-right: 50px;
 }
 
 #breed_table_valk {
     padding-left: 835px;
+    padding-bottom: 50px;
+    padding-top: 10px;
 }
