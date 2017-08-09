@@ -1,2 +1,2 @@
 function battle(){
-    alert("You damaged the enemy pet " + Math.floor((Math.rnadom() * 10) +1));
+    alert("You damaged the enemy pet " + Math.floor((Math.random() * 10) +1));
