@@ -24,7 +24,6 @@
 .top_navigation {
     padding-left: 740px;
     font-weight: bold;
-    align: center;
 }
 
 .top_navigation th {
@@ -75,6 +74,38 @@
     display: inline;
 }
 
-#info_valk .text_valk {
+#info_valk .h2_valk {
     display: inline;
+}
+
+.ability_icon {
+    height: 20px;
+    width: 20px;
+}
+
+.ability_link {
+    text-decoration: none;
+}
+
+.ability_link:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+#breed_table_valk img {
+    height: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#breed_table_valk th {
+    padding-bottom: 10px;
+}
+
+#breed_table_valk td {
+    padding-right: 50px;
+}
+
+#breed_table_valk {
+    padding-left: 835px;
 }
